@@ -1,0 +1,133 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	/*border:0;
+	*/
+    /*outline:0;
+	*/
+    /*font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	*/
+}
+
+#nav_part{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	margin: 20px;
+}
+#dropdown{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 50px;
+	width: 200px;
+	margin-right: 3%;
+	color: white;
+}
+#dropdown a{
+	width: 150px;
+}
+#dropdown ul{
+	list-style: none;
+}
+.dropdown_menu{
+	display: none;
+}
+
+#schedule{
+	float:left; width: 12%;height: 80%; 
+	position: relative;
+	font-weight: 800;
+}
+#schedule li{
+	right: 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 75%;
+}
+#wrap{
+	width: 75%;
+	height: 80%;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	font-weight: 800;
+}
+table{
+	border-collapse: collapse; 
+	width: 100%;
+	height: 100%;
+}
+table td{
+	border: 1px solid  #C0C0C0;
+	height: 60px;
+	width: 100px;
+}
+
+#time{
+	 float: left;
+	 padding-top:40px;
+	 padding-left:;
+	 display: block;
+}
+#cover_part{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#addEvent_part{
+	position: absolute;
+	top: 0;
+	margin-top: 5%;
+	margin-left:25%;
+	width: 50%;	
+	height: 70%;
+	background:  	#339933;
+	border-radius: 50px;
+	font-family: youyuan;
+	font-size:15px;
+	display: none;
+	z-index: 1000;
+}
+#inforNav{
+	height: 5%;
+	margin-bottom:20px;
+}
+#inforDetail{
+	color: white;
+}
+.glyphicon-remove{
+	font-size: 20px;
+	float: right;
+	margin-right:5%;
+}
+.btn-default{
+	width: 200px;
+}
+#recording_part{
+	position: absolute;
+	top: 0;
+	margin-top: 5%;
+	margin-left:25%;
+	width: 50%;	
+	height: 70%;
+	background:#FF9933;
+	border-radius: 50px;
+	font-family: youyuan;
+	font-size:15px;
+	display: none;
+	z-index: 1000;
+}
+#recording_label{
+	background:white;
+	height: 80%;
+}
+##recording_label tr{
+	height: 40px;
+}
