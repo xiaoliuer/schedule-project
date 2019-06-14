@@ -1,2 +1,13 @@
-# h5Template
-h5 animation
+# 简易日历应用
+
+利用xampp搭建本机服务器，后端采用php，前端采用mui，数据库采用mysql
+
+运行步骤：
+1、安装xampp
+2、将php文件存入apache服务器运行目录
+3、安装hbuilder，导入前端代码
+3、运行xampp执行
+
+功能：
+1、根据时间以及日期添加、删除或修改行程
+2、按喜好配置行程颜色
